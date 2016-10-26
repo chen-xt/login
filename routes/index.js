@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-/* login */
+
 router.get('/login', function(req, res, next) {
   res.render('login', { title: '用户登录' });
 });
@@ -31,6 +31,7 @@ router.get('/welcome', function(req, res, next) {
 });
 
 module.exports = router;
+
 
 
 
